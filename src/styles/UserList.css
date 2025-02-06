@@ -1,0 +1,62 @@
+/* src/styles/UserList.css */
+.user-list-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .user-list-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack the rows of cards vertically */
+    align-items: center; /* Center the cards horizontally */
+  }
+  
+  .user-list {
+    display: flex;
+    flex-wrap: wrap; /* Cards will wrap horizontally as needed */
+    justify-content: center; /* Center the cards within the row */
+    gap: 16px;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0; /* Remove margin to avoid extra space */
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+    display: flex; /* Display buttons horizontally */
+    gap: 1rem; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+  }
+  
+  .more-results-btn, .reset-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .more-results-btn:hover, .reset-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .reset-btn {
+    background-color: #dc3545;
+  }
+  
+  .reset-btn:hover {
+    background-color: #c82333;
+  }
+  
